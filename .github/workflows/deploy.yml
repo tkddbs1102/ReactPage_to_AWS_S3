@@ -43,4 +43,4 @@ jobs:
     - name: Deploy to S3
       run: |
         # ./build 폴더의 내용을 S3로 동기화합니다.
-        aws s3 sync ./build s3://mybucket-20260101 --delete
+        aws s3 sync ./build s3://movie-reservation-2026 --delete
